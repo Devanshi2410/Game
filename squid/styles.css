@@ -30,11 +30,12 @@ main {
 }
 
 .sg-logo {
+    height: 30%;
     width: 20%;
     justify-self: center;
 }
 
-.final-game-img {
+.only-game-img {
     width: 100%;
 }
 
