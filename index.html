@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0">
+    
+    <title>The Only Game</title>
+
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="app/style.css" />
+    <script defer src="/app/script.js"></script>
+</head>
+<body>
+    <main>
+        <img class="sg-logo" src="images/squidgame_logo.png" alt="Squid Games logo">
+        <img class="only-game-img" src="https://fontmeme.com/temporary/4a3978a1f5407e007646b64fb567725c.png" alt="The only game">
+        <h3 class="welcome-msg">Welcome Player <span class="player-num"></span>. Congratulations on making it this far. In order to win your handsome cash prize, you must beat the Computer in a game of Rock, Paper, Scissors.</h3>
+        <p class="rules">First to 5 wins...</p>
+        <div class="options">
+            <div class="rock">
+                <img class="playerChoice" src="images/rock.svg" alt="rock button">
+                <p>Rock</p>
+            </div>
+            <div class="paper">
+                <img class="playerChoice" src="images/paper.svg" alt="paper button">
+                <p>Paper</p>
+            </div>
+            <div class="scissors">
+                <img class="playerChoice" src="images/scissors.svg" alt="scissors button">
+                <p>Scissors</p>
+            </div>
+            <button class="reset-game hide">Play Again!</button>
+        </div>
+        <div class="score">
+            <div>
+                <h2>Player <span class="player-num"></span></h2>
+                <h2 id="playerScore">0</h2>
+            </div>
+            <div>
+                <h2>Computer</h2>
+                <h2 id="frontmanScore">0</h2>
+            </div>
+        </div>
+        <div class="status">
+            <p class="update"></p>
+            <p class="gameover-update hide"></p>
+        </div>
+    </main>
+</body>
+</html>
