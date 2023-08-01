@@ -59,7 +59,7 @@ main {
 
 .options img:hover,
 .options img:focus {
-    border: 2px solid #F44788;
+    border: 2px solid #ff0303;
     box-shadow: 0 10px 30px rgba(244, 71, 136, 0.2);
 }
 
@@ -67,7 +67,7 @@ main {
     width: 150px;
     height: 75px;
     align-self: center;
-    background-color: #201E1F;
+    background-color: #ff0a85;
     border: 1px solid black;
     border-radius: 15px;
     font-family: 'Outfit', sans-serif;
